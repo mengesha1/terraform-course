@@ -3,11 +3,11 @@ variable "AWS_REGION" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "terraformkey"
+  default = "mykey"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "terraformkey.pub"
+  default = "mykey.pub"
 }
 
 variable "INSTANCE_DEVICE_NAME" {
